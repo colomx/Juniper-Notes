@@ -1,6 +1,6 @@
 ### Routing Instructions
 
-** These steps must be on internal VPN network **
+**These steps must be on internal VPN network**
 
 QFX SSH 104.255.32.2
 
@@ -92,3 +92,19 @@ Add subnet/prefix to noc-ps
 Update VLAN
 
 Update Prefix
+
+-------------------------------------------------
+
+Remove the switch port from vlan:
+
+<pre>
+delete vlan VLAN1099 interface ge-0/0/1.0
+</pre>
+
+--
+
+Set Port Cap:
+
+<pre>
+set interfaces ge-0/0/0 ether-options speed 100m	
+</pre>
