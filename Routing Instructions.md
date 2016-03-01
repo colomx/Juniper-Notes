@@ -108,3 +108,9 @@ Set Port Cap:
 <pre>
 set interfaces ge-0/0/0 ether-options speed 100m	
 </pre>
+
+Find out IP belongs to which VLAN:
+
+<pre>
+run show route x.x.x.x
+</pre>
