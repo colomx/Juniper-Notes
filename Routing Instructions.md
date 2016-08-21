@@ -2,10 +2,6 @@
 
 **These steps must be on internal VPN network**
 
-QFX SSH 104.255.32.2
-
-TOR SSH 100.100.(SWITCHID).0
-
 #### 1. Assign new VLANID to client
 
 Login to QFX and run command:
