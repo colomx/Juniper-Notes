@@ -10,7 +10,7 @@ Login to QFX and run command:
 show interfaces irb unit ?
 </pre>
 
-Find next increment of 1xxx vlan, then update Blesta client vlan info (Edit Client Profile).
+Find next increment of 1xxx vlan, then update admin end client vlan info (Edit Client Profile).
 
 #### 2. IP Assignment
 
