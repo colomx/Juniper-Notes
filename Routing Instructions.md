@@ -18,11 +18,7 @@ Find next increment of 1xxx vlan, then update Blesta client vlan info (Edit Clie
 
 #### 2. IP Assignment
 
-Visit http://ipam.swiftnode.com/ and log in.
-
-Click Pools (http://ipam.swiftnode.com/ng/pool#/pool/list), then click on Cloud next to desired Pool(COLOMX): http://ipam.swiftnode.com/ng/prefix#/prefix/add/from-pool/4
-
-/29 is default, override with selecting "Override pools default prefix-length".
+Assign a IP block from the pool.
 
 Fill in the following fields
 
